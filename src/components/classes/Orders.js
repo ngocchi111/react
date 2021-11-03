@@ -42,7 +42,7 @@ export default function Orders() {
 
   function handleClick(e){
     e.preventDefault();
-    fetch('https://apinc.herokuapp.com/classes', {
+    fetch('http://localhost:3000/classes', {
     method: "POST",
     body: JSON.stringify({
       name: item.name,
@@ -65,7 +65,7 @@ export default function Orders() {
   };
 
     useEffect(() =>{
-        fetch("https://apinc.herokuapp.com/classes")
+        fetch("http://localhost:3000/classes")
         .then( res => res.json())
         .then(
             (result)=>{

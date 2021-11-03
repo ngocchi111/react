@@ -17,6 +17,7 @@
     "react-scripts": "4.0.3",
     "reactjs-popup": "^2.0.5",
     "recharts": "^2.1.6",
+    "typecript": "^0.0.1-security",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
